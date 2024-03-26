@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <feature name="com.google.android.googlequicksearchbox.SMARTSPACE_DEVICE_FEATURE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET" />
+</config>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- These are configurations that should exist on Google's Android One devices. -->
+<config>
+    <!-- This should be added to all androidone devices -->
+    <feature name="com.google.android.apps.dialer.SUPPORTED" />
+    <feature name="com.google.android.feature.AER_OPTIMIZED" />
+    <feature name="com.google.android.feature.ANDROID_ONE_EXPERIENCE" />
+    <feature name="com.google.android.feature.PREMIER_TIER" />
+    <feature name="com.google.android.feature.TURBO_PRELOAD" />
+    <feature name="com.google.android.feature.WELLBEING" />
+    <feature name="com.google.lens.feature.CAMERA_INTEGRATION" />
+    <feature name="com.hmdglobal.android.feature.NOKIA_EXPERIENCE" />
+    <feature name="com.google.android.googlequicksearchbox.SMARTSPACE_DEVICE_FEATURE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_AOD_SMARTSPACE" />
+    <feature name="com.google.android.googlequicksearchbox.OEM_SMARTSPACE_WIDGET" />
+    <feature name="com.google.android.apps.dialer.call_recording_audio" />
+    <!-- <feature name="com.google.android.feature.GMSEXPRESS_PLUS_BUILD" /> -->
+    <feature name="com.google.lens.feature.IMAGE_INTEGRATION" />
+</config>
+

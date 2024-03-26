@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+
+  <exception package="com.google.android.apps.setupwizard.searchselector">
+    <permission name="android.permission.INTERACT_ACROSS_USERS" fixed="false"/>
+    <permission name="android.permission.MANAGE_USERS" fixed="false"/>
+  </exception>
+
+</exceptions>

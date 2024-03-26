@@ -1,0 +1,20 @@
+## qssi-user 14 UKQ1.231003.002 00WW_3_170 release-keys
+- Manufacturer: hmd global
+- Platform: holi
+- Codename: APO_sprout
+- Brand: Nokia
+- Flavor: qssi-user
+- Release Version: 14
+- Kernel Version: 5.4.249
+- Id: UKQ1.231003.002
+- Incremental: 00WW_3_170
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: Nokia/Apollo_00WW/APO_sprout:14/UKQ1.231003.002/00WW_3_170:user/release-keys
+- OTA version: 
+- Branch: qssi-user-14-UKQ1.231003.002-00WW_3_170-release-keys
+- Repo: nokia_apo_sprout_dump
