@@ -1,0 +1,5 @@
+service hal_hmd_settings_provider  /vendor/bin/hw/vendor.hmd.settings.provider@1.0-service
+    class hal
+    user root
+    group root system
+

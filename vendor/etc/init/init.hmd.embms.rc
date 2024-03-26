@@ -1,0 +1,15 @@
+
+service hmd-embms /vendor/bin/init.hmd.embms.sh
+    class main
+    user system
+    group root shell system oem_2901 sdcard_rw sdcard_r media_rw log vendor_qdss
+    disabled
+    oneshot
+    seclabel u:r:vendor_hmd_mdlog:s0
+
+on property:vendor.debug.embms=1
+   restart hmd-embms
+
+on property:vendor.debug.embms=0
+   stop hmd-embms
+

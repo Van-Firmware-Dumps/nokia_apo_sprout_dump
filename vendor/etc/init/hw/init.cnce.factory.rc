@@ -1,0 +1,149 @@
+on init
+    chown root system /dev/block/sda4   
+    chmod 0660 /dev/block/sda4
+    chown root system /dev/block/sda5   
+    chmod 0660 /dev/block/sda5
+    chown root system /dev/block/sde61   
+    chmod 0660 /dev/block/sde61
+    chown media audio /sys/devices/platform/soc/soc:hac_switch/settings
+    chown media audio /sys/devices/platform/soc/soc:hac_switch/active
+    chown root system /dev/block/sdg2
+    chmod 0660 /dev/block/sdg2
+    chown root system /dev/block/sdf2
+    chmod 0660 /dev/block/sdf2
+    chown root system /dev/block/sda3
+    chmod 0660 /dev/block/sda3
+    chown root system /dev/block/sdd3
+    chmod 0660 /dev/block/sdd3
+    chown root system /dev/block/sde3
+    chmod 0660 /dev/block/sde3
+    chown root system /dev/block/sdf3
+    chmod 0660 /dev/block/sdf3
+    chown root system /dev/block/sdg3
+    chmod 0660 /dev/block/sdg3
+    #req Z1R-172 yangxu 20210708 add begin
+    #clear imeilock partition func
+    chown root system /dev/block/sdg4
+    chmod 0660 /dev/block/sdg4
+    #req Z1R-172 yangxu 20210708 add end
+    chown root system /dev/block/sda7
+    chmod 0660 /dev/block/sda7
+    chown root system /sys/class/capsense/enable
+    chmod 0660 /sys/class/capsense/enable
+    restorecon_recursive /elabel
+    chown root system /dev/block/mmcblk0p66
+    chmod 0660 /dev/block/mmcblk0p66
+    chown root system /dev/block/mmcblk0p69
+    chmod 0660 /dev/block/mmcblk0p69
+    chown root system /dev/block/mmcblk0p73
+    chmod 0660 /dev/block/mmcblk0p73
+
+on post-fs-data
+    chown system system /sys/class/leds/vibrator/f0_calib
+    chown system system /sys/class/leds/vibrator/state
+    chown system system /sys/class/leds/vibrator/duration
+    chmod 0777 /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/activate
+    chmod 0777 /sys/class/leds/vibrator/activate
+    chown system system /sys/hwinfo/board_id
+    chown system system /sys/hwinfo/hw_sku
+    chmod 0755 /sys/hwinfo/board_id
+    chmod 0755 /sys/hwinfo/hw_sku
+
+on boot
+    #yangjianbin add begin 20210105
+    restorecon_recursive /elabel
+    chown system system /elabel
+    chmod 0775 /elabel
+    chown system system /dev/block/sda6
+    chmod 0770 /dev/block/sda6
+    chown system system /dev/block/sdg5
+    chmod 0770 /dev/block/sdg5
+    chmod 0660 /d/pmic-votable/USB_ICL/force_active
+    #yangjianbin add end 20210105
+    chown root system /dev/block/sda4
+    chmod 0660 /dev/block/sda4
+    chown root system /dev/block/sda5
+    chmod 0660 /dev/block/sda5
+    chown root system /dev/block/sde61
+    chmod 0660 /dev/block/sde61
+    chown media audio /sys/devices/platform/soc/soc:hac_switch/settings
+    chown media audio /sys/devices/platform/soc/soc:hac_switch/active
+    chown root system /dev/block/sdg2
+    chmod 0660 /dev/block/sdg2
+    chown root system /dev/block/sdf2
+    chmod 0660 /dev/block/sdf2
+    chown root system /dev/block/sda3
+    chmod 0660 /dev/block/sda3
+    chown root system /dev/block/sdd3
+    chmod 0660 /dev/block/sdd3
+    chown root system /dev/block/sde3
+    chmod 0660 /dev/block/sde3
+    chown root system /dev/block/sdf3
+    chmod 0660 /dev/block/sdf3
+    chown root system /dev/block/sdg3
+    chmod 0660 /dev/block/sdg3
+    #req Z1R-172 yangxu 20210708 add begin
+    #clear imeilock partition func
+    chown root system /dev/block/sdg4
+    chmod 0660 /dev/block/sdg4
+    #req Z1R-172 yangxu 20210708 add end
+    chown root system /dev/block/sda7
+    chmod 0660 /dev/block/sda7
+    chown root system /sys/class/capsense/enable
+    chmod 0660 /sys/class/capsense/enable
+    chown root system /dev/block/mmcblk0p66
+    chmod 0660 /dev/block/mmcblk0p66
+    chown root system /dev/block/mmcblk0p69
+    chmod 0660 /dev/block/mmcblk0p69
+    chown root system /dev/block/mmcblk0p73
+    chmod 0660 /dev/block/mmcblk0p73
+
+#dj
+on property:debug.auto.tp.test=1
+    chown system system /proc/touchscreen/fts_test
+    write /proc/touchscreen/fts_test "dj.ini "
+#tcl
+on property:debug.auto.tp.test=2
+    chown system system /proc/touchscreen/fts_test
+    write /proc/touchscreen/fts_test "tcl.ini "
+
+on property:ro.product.sw.internal.version=*
+    setprop debug.product.sw.internal.version ${ro.product.sw.internal.version}
+
+on property:ro.product.system.device=*
+    setprop debug.product.system.device ${ro.product.system.device}
+
+#yangjianbin add facsvc reboot 
+chown root shell /system/etc/reboot.sh
+chmod 0777 /system/etc/reboot.sh
+
+chown root shell /system/etc/shutdown.sh
+chmod 0777 /system/etc/shutdown.sh
+
+chown root shell /system/etc/FactoryrReset.sh
+chmod 0777 /system/etc/FactoryrReset.sh
+
+service facsvc-reboot /system/etc/reboot.sh
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:facsvc_shell:s0
+
+service facsvc-shutdown /system/etc/shutdown.sh
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:facsvc_shell:s0
+
+service facsvc-reset /system/etc/FactoryrReset.sh
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:facsvc_shell:s0

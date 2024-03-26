@@ -1,0 +1,23 @@
+
+service egis-image-db-log /vendor/bin/egis.image.db.log.sh
+    class main
+    user shell
+    group root shell system oem_2901 sdcard_rw sdcard_r media_rw log vendor_qdss
+    disabled
+    oneshot
+    seclabel u:r:egiscopy:s0
+
+#add by yongjun.xiao@hmdglobal.com for copy egis_image_db
+#on property:persist.sys.debug.getegis_image_db=1
+#    start egis-image-db-log
+#    setprop persist.sys.debug.getegis_image_db 0
+
+on property:persist.vendor.debug.getegis=1
+   #chmod 0770 /data/vendor_de/0/fpdata -R
+   restart egis-image-db-log
+
+on property:persist.vendor.debug.getegis=2
+   exec - system system -- /vendor/bin/egis.image.db.log.sh
+   setprop persist.vendor.debug.getegis 0
+
+

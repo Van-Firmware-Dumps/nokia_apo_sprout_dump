@@ -1,0 +1,10 @@
+#add by jacky.wei@hmdglobal.com for catch modem log on user version
+# Coresight early boot service
+service egis-image-db-log-chmod /vendor/bin/sh /vendor/bin/egis.image.db.log.chmod.sh
+    class core
+    user system
+    oneshot
+
+on property:sys.boot_completed=1
+    start egis-image-db-log-chmod
+

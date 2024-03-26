@@ -1,0 +1,10 @@
+ #added by frank.song for dualspeaker for SNT
+
+on property:persist.sys.hmd.dualspeaker=0
+    setprop persist.vendor.hmd.stereo_mono_on 0
+
+on property:persist.sys.hmd.dualspeaker=1
+    setprop persist.vendor.hmd.stereo_mono_on 1
+
+
+
