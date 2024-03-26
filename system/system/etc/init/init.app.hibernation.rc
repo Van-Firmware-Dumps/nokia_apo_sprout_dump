@@ -1,0 +1,13 @@
+on property:sys.boot_completed=1
+    start apphibernation
+
+on property:persist.sys.boot_completed=1
+    start apphibernation
+
+service apphibernation /system/bin/init.app.hibernation.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:app_hibernation:s0
+

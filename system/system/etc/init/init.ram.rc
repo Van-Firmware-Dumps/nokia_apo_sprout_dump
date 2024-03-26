@@ -1,0 +1,42 @@
+#add by hao.huang@hmdglobal.com for lmk
+on property:ro.boot.config.ramsize=3GB
+    setprop ro.vendor.ramconfig 12
+on property:ro.boot.config.ramsize=4GB
+    setprop ro.vendor.ramconfig 12
+on property:ro.boot.config.ramsize=6GB
+    setprop ro.vendor.ramconfig 13
+on property:ro.boot.config.ramsize=8GB
+    setprop ro.vendor.ramconfig 13
+
+on property:ro.vendor.ramconfig=12
+#Set LMK watermark as {108MB,135MB,162MB,189MB,324MB,472MB}
+    setprop ro.lmk.custom_adj "0,100,200,250,900,950"
+    setprop ro.lmk.custom_minfree "73728,92160,110592,129024,147456,184320"
+    setprop ro.lmk.customize_minfree true
+    setprop ro.lmk.use_psi true
+    setprop ro.lmk.use_new_strategy false
+    setprop ro.lmk.use_minfree_levels false
+    setprop ro.lmk.thrashing_limit 100
+    setprop ro.lmk.thrashing_limit_decay 10
+    
+on property:ro.vendor.ramconfig=13
+#Set LMK watermark as {108MB,135MB,162MB,189MB,324MB,472MB}
+    setprop ro.lmk.custom_adj "0,100,200,250,900,950"
+    setprop ro.lmk.custom_minfree "27648,34560,41472,48384,82944,120960"
+    setprop ro.lmk.customize_minfree true
+    setprop ro.lmk.use_psi true
+    setprop ro.lmk.use_minfree_levels false
+    setprop ro.lmk.thrashing_limit 100
+    setprop ro.lmk.thrashing_limit_decay 10
+
+service hmd_memgroup /system/bin/hmd_memgroup
+    user root
+    group root system shell
+    seclabel u:r:su:s0
+    disabled
+    oneshot
+
+on property:persist.vendor.hyperholddone=true
+    start hmd_memgroup
+
+		

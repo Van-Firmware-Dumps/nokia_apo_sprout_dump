@@ -1,0 +1,4 @@
+
+on property:gsm.netflix.channel=*
+    setprop ro.netflix.channel ${gsm.netflix.channel}
+

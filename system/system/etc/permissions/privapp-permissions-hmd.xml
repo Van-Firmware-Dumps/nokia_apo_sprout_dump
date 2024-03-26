@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+-->
+<!-- Add by John.ye -->
+<permissions>
+
+    <!-- Add for HMDSetupWizard -->
+    <privapp-permissions package="com.hmdglobal.app.setupwizardext">
+        <permission name="android.permission.SET_TIME_ZONE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.DELETE_PACKAGES" />
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+    </privapp-permissions>
+    <!-- added by jacky.wei@hmdglobal.com [STF][STF-1997][FSW-059] HMD Device Information APK start -->
+    <privapp-permissions package="com.hmdglobal.app.myphonehelper">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+    </privapp-permissions>
+    <!-- added by jacky.wei@hmdglobal.com [STF][STF-1997][FSW-059] HMD Device Information APK end -->
+
+    <!-- Add [STF-4265] by meicheng.li 20220218 Start -->
+    <privapp-permissions package="com.npg.vzw.settings">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+    <!-- Add [STF-4265] by meicheng.li 20220218 End -->
+    <!-- Added for [APO-3195] HMD My Device Integration Start -->
+    <privapp-permissions package="com.hmdglobal.support">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+    <!-- Added for [APO-3195] HMD My Device Integration End -->
+    <!-- Added by eddie.chen for [STF][STF-1574][FSW-019] Device Activation. 2022.02.21 begin -->
+    <privapp-permissions package="com.hmdglobal.app.activation">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+    <!-- Added by eddie.chen for [STF][STF-1574][FSW-019] Device Activation. 2022.02.21 end -->
+  <!-- Added by eddie.chen for [APO]add HMDCamera, HMDCinemaEditor and HMDPortraitEditor. 20220325 begin -->
+    <privapp-permissions package="com.hmdglobal.app.camera">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.hmdglobal.app.cinemaeditor">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.hmdglobal.app.bokeheditor">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    </privapp-permissions>
+    <privapp-permissions package="com.hmdglobal.app.vendorconfig">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+  <!-- Added by eddie.chen for [APO]add HMDCamera, HMDCinemaEditor and HMDPortraitEditor. 20220325 end -->
+    <privapp-permissions package="com.hmd.face.service">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
+    </privapp-permissions>
+    
+    <!--added by franksong-->
+    <privapp-permissions package="com.hmdglobal.app.omacp">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+      <permission name="android.permission.RECEIVE_WAP_PUSH"/>
+    </privapp-permissions>
+    <!-- Added for [TTG-6641] HMD My Device Integration Start -->
+    <privapp-permissions package="com.hmdglobal.support">
+    <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+    <!-- Added for [TTG-6641] HMD My Device Integration End -->
+</permissions>

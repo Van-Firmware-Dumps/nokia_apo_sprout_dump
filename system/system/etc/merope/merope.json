@@ -1,0 +1,31 @@
+{
+  "target_device": "APO",
+  "version": "10.1001.01",
+  "release_date": "2022/05/20",
+  "payload": [
+    {
+      "camera_id": "0",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "fusion_distance_threshold": [35, 40],
+          "fusion_lux_index_threshold": [730.0, 740.0],
+          "payload": [
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "4",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "fusion_distance_threshold": [35, 40],
+          "fusion_lux_index_threshold": [730.0, 740.0],
+          "payload": [
+          ]
+        }
+      ]
+    }
+  ]
+}

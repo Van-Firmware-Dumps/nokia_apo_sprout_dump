@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <feature name="com.hmdglobal.android.feature.PRODUCT_APO"/>
+    <feature name="com.hmdglobal.android.feature.YEAR2022" />
+</permissions>

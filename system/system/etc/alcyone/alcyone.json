@@ -1,0 +1,4299 @@
+{
+  "target_device": "apollo",
+  "version": "10.1001.05",
+  "release_date": "2022/10/23",
+  "payload": [
+    {
+      "camera_id": "0",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[280, 300],
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "night_dark_vision_threshold": [430, 440],
+          "ai_portrait_threshold": [280, 300],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,5000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.2,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.8,
+                  "ev-_num": 1,
+                  "ev--": -2.8,
+                  "ev--_num": 1,
+                  "ev---": -3.8,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            },
+            {
+              "iso_range": "5000,15000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 30,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.4,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,150",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "1",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[315, 335],
+          "max_post_raw_sensitivity_boost": 386,
+          "use_lib_face_detection": true,
+          "night_camera_type": -1,
+          "ai_portrait_threshold": [300, 320],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 25,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 30,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 35,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 45,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 55,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 60,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 70,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 70,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 75,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 75,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 80,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "blur_params": [
+            {
+              "spot_type": "blur",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "heart",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "star",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "biotar",
+              "payload": {
+                "blur_strength": [0, 5, 11, 16, 21, 26, 38, 51, 63, 76, 90]
+              }
+            },
+            {
+              "spot_type": "creamy",
+              "payload": {
+                "blur_strength": [0, 3, 6, 10, 13, 16, 25, 33, 42, 51, 60]
+              }
+            },
+            {
+              "spot_type": "batis",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "butterfly",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "flake",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "waterdrop",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,1600",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 10,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 20,
+                  "i32UVReprocIntensity": 20,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.2,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "1600,3200",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 70,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "3200,4800",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 40,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 80,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.2,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "4800,9000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 40,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 80,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.2,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[255, 275],
+          "max_post_raw_sensitivity_boost": 386,
+          "use_lib_face_detection": true,
+          "night_camera_type": -1,
+          "ai_portrait_threshold": [235, 255],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 25,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 30,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 35,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 45,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 55,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 60,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 70,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 70,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 75,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 75,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 80,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "blur_params": [
+            {
+              "spot_type": "blur",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "heart",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "star",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "biotar",
+              "payload": {
+                "blur_strength": [0, 5, 11, 16, 21, 26, 38, 51, 63, 76, 90]
+              }
+            },
+            {
+              "spot_type": "creamy",
+              "payload": {
+                "blur_strength": [0, 3, 6, 10, 13, 16, 25, 33, 42, 51, 60]
+              }
+            },
+            {
+              "spot_type": "batis",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "butterfly",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "flake",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "waterdrop",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,1600",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 10,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 20,
+                  "i32UVReprocIntensity": 20,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.2,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "1600,3200",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 70,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "3200,4800",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 40,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 80,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.2,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "4800,9000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 40,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 80,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.2,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "2",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "max_post_raw_sensitivity_boost": 200,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,150",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "max_post_raw_sensitivity_boost": 200,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,150",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "3",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[325, 336],
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "night_dark_vision_threshold": [500, 510],
+          "ai_portrait_threshold": [280, 300],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,5000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.2,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.8,
+                  "ev-_num": 1,
+                  "ev--": -2.8,
+                  "ev--_num": 1,
+                  "ev---": -3.8,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            },
+            {
+              "iso_range": "5000,15000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 30,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.4,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[340, 351],
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "night_dark_vision_threshold": [500, 510],
+          "ai_portrait_threshold": [295, 315],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,150",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "4",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[325, 336],
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "night_dark_vision_threshold": [390, 400],
+          "ai_portrait_threshold": [280, 300],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,5000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.2,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.8,
+                  "ev-_num": 1,
+                  "ev--": -2.8,
+                  "ev--_num": 1,
+                  "ev---": -3.8,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            },
+            {
+              "iso_range": "5000,15000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 30,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.4,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 0,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "force_auto_night_lux_index":[310, 321],
+          "max_post_raw_sensitivity_boost": 367,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+		      "night_dark_vision_threshold": [405, 415],
+          "ai_portrait_threshold": [295, 315],
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,150",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 50,
+                  "i32ToneContrast": 50
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 50,
+                  "i32Saturation": 50,
+                  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 50,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev-"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "camera_id": "5",
+      "payload": [
+        {
+          "sensor_type": "1",
+          "force_night_mode_iso": 1600,
+          "max_post_raw_sensitivity_boost": -1,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "blur_params": [
+            {
+              "spot_type": "blur",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "heart",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "star",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "biotar",
+              "payload": {
+                "blur_strength": [0, 5, 11, 16, 21, 26, 38, 51, 63, 76, 90]
+              }
+            },
+            {
+              "spot_type": "creamy",
+              "payload": {
+                "blur_strength": [0, 3, 6, 10, 13, 16, 25, 33, 42, 51, 60]
+              }
+            },
+            {
+              "spot_type": "batis",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "butterfly",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "flake",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "waterdrop",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,1600",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 10,
+                  "i32Saturation": 0,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 20,
+                  "i32UVReprocIntensity": 20,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.5,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev---"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "1600,3200",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 30,
+                  "i32YReprocIntensity": 40,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "3200,4800",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "4800,8000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 30,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 60,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "sensor_type": "2",
+          "force_night_mode_iso": 1600,
+          "max_post_raw_sensitivity_boost": -1,
+          "use_lib_face_detection": false,
+          "night_camera_type": -1,
+          "beauty_params": [
+            {
+              "beauty_level": "0",
+              "payload": {
+                "i32AutoSkinToneBright": 0,
+                "i32SkinSoften": 0,
+                "i32EyeBright": 0,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "1",
+              "payload": {
+                "i32AutoSkinToneBright": 10,
+                "i32SkinSoften": 6,
+                "i32EyeBright": 5,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "2",
+              "payload": {
+                "i32AutoSkinToneBright": 15,
+                "i32SkinSoften": 7,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "3",
+              "payload": {
+                "i32AutoSkinToneBright": 20,
+                "i32SkinSoften": 8,
+                "i32EyeBright": 10,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "4",
+              "payload": {
+                "i32AutoSkinToneBright": 25,
+                "i32SkinSoften": 10,
+                "i32EyeBright": 20,
+                "i32Deblemish": 0,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "5",
+              "payload": {
+                "i32AutoSkinToneBright": 30,
+                "i32SkinSoften": 11,
+                "i32EyeBright": 20,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "6",
+              "payload": {
+                "i32AutoSkinToneBright": 35,
+                "i32SkinSoften": 13,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "7",
+              "payload": {
+                "i32AutoSkinToneBright": 40,
+                "i32SkinSoften": 15,
+                "i32EyeBright": 30,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "8",
+              "payload": {
+                "i32AutoSkinToneBright": 45,
+                "i32SkinSoften": 17,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "9",
+              "payload": {
+                "i32AutoSkinToneBright": 50,
+                "i32SkinSoften": 18,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            },
+            {
+              "beauty_level": "10",
+              "payload": {
+                "i32AutoSkinToneBright": 55,
+                "i32SkinSoften": 20,
+                "i32EyeBright": 35,
+                "i32Deblemish": 1,
+                "i32Contrast": 0,
+                "i32Saturation": 0,
+                "i32Sharpness": 0
+              }
+            }
+          ],
+          "blur_params": [
+            {
+              "spot_type": "blur",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "heart",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "star",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "biotar",
+              "payload": {
+                "blur_strength": [0, 5, 11, 16, 21, 26, 38, 51, 63, 76, 90]
+              }
+            },
+            {
+              "spot_type": "creamy",
+              "payload": {
+                "blur_strength": [0, 3, 6, 10, 13, 16, 25, 33, 42, 51, 60]
+              }
+            },
+            {
+              "spot_type": "batis",
+              "payload": {
+                "blur_strength": [0, 8, 16, 23, 31, 38, 43, 58, 74, 90, 100]
+              }
+            },
+            {
+              "spot_type": "butterfly",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "flake",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            },
+            {
+              "spot_type": "waterdrop",
+              "payload": {
+                "blur_strength": [0, 10, 18, 26, 34, 42, 50, 62, 74, 86, 100]
+              }
+            }
+          ],
+          "payload": [
+            {
+              "iso_range": "0,1600",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 10,
+                  "i32Saturation": 0,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 20,
+                  "i32UVReprocIntensity": 20,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.5,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "1600,3200",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 30,
+                  "i32YReprocIntensity": 40,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "3200,4800",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 40,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 20,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 50,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            },
+            {
+              "iso_range": "4800,8000",
+              "payload": {
+                "sf_params": {
+                  "i32LuminDenoiseLevel": 50,
+                  "i32ColorDenoiseLevel": 50,
+                  "i32SharpLevel": 50,
+                  "i32RingDenoiseLevel": 50,
+                  "isUseAutoEst": true,
+                  "i32ToneLength": 50,
+                  "i32ToneSaturation": 20,
+                  "i32ToneContrast": 40
+                },
+                "mf_params": {
+                  "i32ToneLength": 20,
+                  "i32Brightness": -20,
+                  "i32Contrast": 30,
+                  "i32Intensity": 50,
+                  "i32LightIntensity": 0,
+                  "i32Saturation": 50,
+				  "i32SaturationHdr": 0,
+                  "i32SharpenIntensity": 30,
+                  "i32YReprocIntensity": 50,
+                  "i32UVReprocIntensity": 60,
+                  "i32SceneContrast": 50,
+                  "i32IsoThres": 800
+                },
+                "night_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "night_ev_table": [
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev+",
+                    "ev0",
+                    "ev-",
+                    "ev--",
+                    "ev---"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "mcmf_capture_params": {
+                  "ev+++": 3.0,
+                  "ev+++_num": 1,
+                  "ev++": 2.0,
+                  "ev++_num": 1,
+                  "ev+": 1.0,
+                  "ev+_num": 1,
+                  "ev0": 0.0,
+                  "ev0_num": 1,
+                  "ev-": -1.0,
+                  "ev-_num": 1,
+                  "ev--": -2.0,
+                  "ev--_num": 1,
+                  "ev---": -3.0,
+                  "ev---_num": 1,
+                  "hdr_ev_table": [
+                    "ev--"
+                  ],
+                  "mfnr_ev_table": [
+                    "ev0",
+					"ev0",
+                    "ev0"
+                  ],
+                  "max_exposure_time_limit": 100000000
+                },
+                "sn_params": {
+                  "i32CurveBrightness": 50,
+                  "i32CurveContrast": 0,
+                  "i32Sharpness": 50
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

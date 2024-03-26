@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<permissions>
+    <feature name="com.hmdglobal.android.feature.NOKIA_EXPERIENCE"/>
+    <feature name="com.hmdglobal.android.feature.OZO_EXPERIENCE"/>
+    <feature name="com.hmdglobal.android.feature.5G_EXPERIENCE" />
+</permissions>
